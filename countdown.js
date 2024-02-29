@@ -1,7 +1,7 @@
 
 
 //define the end time (eg 1 hour, 2 hours from now...)
-const endTime = new Date("Mar 1 2024");
+const endTime = new Date("March 10 2024");
 
 //function to update the display
 function updateDisplay() {
@@ -14,6 +14,8 @@ function updateDisplay() {
         document.getElementById("image").src = "catbp2.jpg";
         document.getElementById("hidden").style.display = "flex";
         document.getElementById("timer-container").style.display = "none";
+
+        //document.getElementById("catbp").style.display = "none";
     }
 
     //calculate days, hours, minutes and seconds

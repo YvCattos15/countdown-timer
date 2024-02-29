@@ -67,6 +67,7 @@ img {
 
 #catbp {
     font-weight: 500;
+ /*   display: flex; */
 }
 
 @media screen and (max-width: 900px) {
